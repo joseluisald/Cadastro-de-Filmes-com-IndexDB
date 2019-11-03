@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hotel Flow</title>
+		<meta charset="utf-8">
+		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/toastr-master/css/toastr.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class="form">
+			<label for="#titulo">Titulo</label>
+			<input class="form-control" type="text" id="titulo" name="titulo">
+
+			<label for="#autor">Autor</label>
+			<input class="form-control" type="text" id="autor" name="autor">
+
+			<label for="#imdb">IMDB</label>
+			<input class="form-control" type="text" id="imdb" name="imdb">
+
+			<label for="#data">Data Lançamento</label>
+			<input class="form-control" type="text" id="data" name="data">
+
+			<label for="#resumo">Resumo</label>
+			<textarea class="form-control" id="resumo" name="resumo"></textarea>
+
+			<button class="btn" id="btnCadastrar">Cadastrar</button>
+			<button class="btn" style="display: none;" id="btnEditar">Editar</button>
+		</div>
+
+		<div class="listaFilmes" id="listaFilmes"></div>
+
+		<script src="assets/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/toastr-master/js/toastr.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/indexdb.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/functions.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

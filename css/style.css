@@ -1,0 +1,48 @@
+.form
+{
+	margin: 20px;
+}
+
+.form > label
+{
+	width: 100%;
+    float: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-control
+{
+	width: 100%;
+    float: left;
+    display: flex;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.btn
+{
+	float: left;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.listaFilmes
+{
+	float: left;
+	display: flex;
+	width: 100%;
+}
+
+.listaFilmes > table
+{
+	width: 100%;
+	margin: 20px;
+}
+
+.btn
+{
+	padding: 5px;
+	cursor: pointer;
+}
