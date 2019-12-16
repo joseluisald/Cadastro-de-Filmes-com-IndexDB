@@ -1,0 +1,10 @@
+{
+    "name": "Cadastro via IndexDB",
+    "homepage": "sansiqdev.con.br",
+    "archive": {
+            "skip-dev": true
+    },
+    "require": {
+        "yjoseluis/Cadastro-de-Filmes-com-IndexDB": "*"
+    }
+}
